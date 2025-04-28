@@ -16,3 +16,13 @@ https://www.cnblogs.com/qiyuexin/p/9026365.html
 
 3、GNU C、ANSI C、C++的区别？
 https://blog.csdn.net/lbit20131014/article/details/81108096
+
+
+4.git关键指令
+(1)添加文件到暂存区
+git add .   或者 git add name.xxx   
+(2)
+
+
+
+C++\英语\ESP32(今晚买器件和下载环境)
