@@ -1,0 +1,18 @@
+1. C语言内嵌汇编语法asm() 或 __asm__()
+(1) asm("mov #live_update,PC");写法的作用
+	① asm()是c语言中的内嵌汇编写法，意思是将live_update的地址传递给PC，实现跳转更新；
+	② 因为MSP430为RISV--C架构，mov汇编语法为 "mov  源操作数，目标操作数"; 在ARM架构下，mov汇编语法为 "mov  目标操作数, 源操作数"
+
+
+
+2、void live_update() @ "LIVE_UPDATE_CODE" , @ "LIVE_UPDATE_CODE"语法的作用？ --未记录笔记
+（1）@"LIVE_UPDATE_CODE"用于指定函数或变量的存储位置（内存地址或段名）
+（2）不同的编译器下写法不同
+	i. GCC: __attribute__((section("name")))
+	ii.Keil MDK: __attribute__((at(address)))
+	iii.IAR: 使用@"name" 或者 #pragma LOCATION("name")
+https://www.cnblogs.com/qiyuexin/p/9026365.html
+
+
+3、GNU C、ANSI C、C++的区别？
+https://blog.csdn.net/lbit20131014/article/details/81108096
