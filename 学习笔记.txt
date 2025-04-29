@@ -19,10 +19,24 @@ https://blog.csdn.net/lbit20131014/article/details/81108096
 
 
 4.git关键指令
-(1)添加文件到暂存区
+(1)添加文件
 git add .   或者 git add name.xxx   
-(2)
+(2)文件提交并备注
+git commit -m "message"
+
+(3)指定Github仓库地址 (若已经指定则不需要此操作)
+git remote add origin 仓库地址
+
+(4)提交Github仓库
+git push -u origin master
 
 
+C++\英语\将手上的报警网关项目学习完          \\ESP32(今晚买器件和下载环境)
 
-C++\英语\ESP32(今晚买器件和下载环境)
+C++
+4.29 ~ 4.30晚上，学习多出来的语法
+ 5.1~5.5号，小写一个项目
+后期：写LeetCode的算法题
+
+英语
+每天学习10~20个单词（专业单词），并加上单词对应的句子（了解语法）；晚上复习
